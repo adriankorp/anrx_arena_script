@@ -68,9 +68,9 @@ const arenaContract = new ethers.Contract(
 );
 
 const getAuthToken = async () => {
-  getUsedEnergy();
   xauthToken = jsonData.authToken;
   let nonce = jsonData.lastNonce;
+  await getUsedEnergy();
   while (xauthToken === null) {
     let message = `Welcome to Battlewave2323!\n\nClick 'Sign' to sign in. No password needed!\n\nWallet address:\n${WALLET.address}\n\nNonce:\n${nonce}`;
     let signMessage = await WALLET.signMessage(message);
@@ -227,5 +227,5 @@ const fight = async () => {
   }
   console.log('End fight')
 };
-getAuthToken()
+await getAuthToken()
 fight();
