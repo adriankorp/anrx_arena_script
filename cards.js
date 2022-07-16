@@ -1,7 +1,7 @@
 export const cards = [
     {
         "cardNumber": 1,
-        "nftId": 69315,
+        "nftId": 111,
         "powerLevel": 5,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/5.jpg",
         "NFTName": "OS",
@@ -10,7 +10,7 @@ export const cards = [
     },
     {
         "cardNumber": 2,
-        "nftId": 24463,
+        "nftId": 111,
         "powerLevel": 5,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/5.jpg",
         "NFTName": "OS",
@@ -19,7 +19,7 @@ export const cards = [
     },
     {
         "cardNumber": 3,
-        "nftId": 24423,
+        "nftId": 111,
         "powerLevel": 4,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/4.jpg",
         "NFTName": "OS",
@@ -28,7 +28,7 @@ export const cards = [
     },
     {
         "cardNumber": 4,
-        "nftId": 1710,
+        "nftId": 111,
         "powerLevel": 3,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/pvpbattle/battle_pass.jpg",
         "NFTName": "BP",
@@ -37,7 +37,7 @@ export const cards = [
     },
     {
         "cardNumber": 5,
-        "nftId": 83018,
+        "nftId": 111,
         "powerLevel": 2,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/2.jpg",
         "NFTName": "OS",
@@ -46,7 +46,7 @@ export const cards = [
     },
     {
         "cardNumber": 6,
-        "nftId": 85803,
+        "nftId": 111,
         "powerLevel": 1,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/1.jpg",
         "NFTName": "OS",
@@ -55,7 +55,7 @@ export const cards = [
     },
     {
         "cardNumber": 7,
-        "nftId": 85805,
+        "nftId": 111,
         "powerLevel": 0,
         "imageUrl": "https://anrxbackend.s3.us-west-2.amazonaws.com/oracleShards/0.jpg",
         "NFTName": "OS",
