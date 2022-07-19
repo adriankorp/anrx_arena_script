@@ -225,7 +225,7 @@ const fight = async () => {
       console.error(error);
     }
   }
-  console.log('End fight')
+  console.log('End fight, energy left:', battleData.energy)
 };
 await getAuthToken()
 headers["x-auth-token"]=xauthToken
