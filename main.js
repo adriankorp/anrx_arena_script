@@ -213,7 +213,7 @@ const fight = async () => {
 
   let battleData = await getUsedEnergy();
 
-  while (battleData.energy > 1) {
+  while (battleData.energy > 0) {
     try {
       battleData = await getUsedEnergy();
       battleData.boostedMatches > 0
