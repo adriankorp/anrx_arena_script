@@ -215,12 +215,13 @@ const fight = async () => {
 
   while (battleData.energy > 0) {
     try {
-      battleData = await getUsedEnergy();
       battleData.boostedMatches > 0
         ? await cardFight(true)
         : await cardFight(false);
       console.log(`Enery left ${battleData.energy - 1}\n`);
       await sleep(2000);
+      battleData = await getUsedEnergy();
+
     } catch (error) {
       console.error(error);
     }
